@@ -13,13 +13,7 @@ def hitung_zakat_fitrah():
         total_zakat = jumlah_jiwa * kebutuhan_per_jiwa * harga_beras
 
         # Pesan hasil
-        message = (
-            f"Jumlah Jiwa: {jumlah_jiwa}\n"
-            f"Harga Beras per Kg: Rp {harga_beras:,.2f}\n"
-            f"Kebutuhan Beras per Jiwa: {kebutuhan_per_jiwa} kg\n\n"
-            f"Total Zakat Fitrah yang Harus Dibayarkan: Rp {total_zakat:,.2f}"
-        )
-
+        
         # Tampilkan hasil
         messagebox.showinfo("Hasil Perhitungan Zakat Fitrah", message)
 
